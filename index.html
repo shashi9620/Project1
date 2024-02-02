@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Log In</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="Login.css"/>
+<body>
+    <div class="container">
+     
+        <div class="form_box">
+            <h1>Log In</h1>
+            <form action="login.php" method="POST">
+            <div class="input_group">
+                <div class="input_field">
+                    <ion-icon name="person"></ion-icon>
+                    <input type="text" placeholder="Enter USN" name="USN" required>
+                </div>
+                <div class="input_field">
+                    <ion-icon name="lock-closed"></ion-icon>
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <p>Faculty Login?<a href="FacultyLogin.html">Click Here</a></p>
+            </div>
+            <div class="submit_btn">
+                <input type="submit">
+            </div>
+        </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
